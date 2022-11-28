@@ -22,7 +22,7 @@ app.get("/", (req,res) => {
   console.log(req.query)
 
   res.status(200).json({
-    "keykey" : "value 입니다.",
+    "keykey" : "value   입니다.",
     "이름입니다." : "이름일까요?",
     });
 });
