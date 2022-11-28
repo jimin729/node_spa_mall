@@ -13,7 +13,7 @@ app.use("/api",[goodsRoutes]);
 app.post("/",(req,res) =>{
   console.log(req.body);
 
-  res.send("기본 URL에 POST 메소드가 정상적으로 실행되었습니다.")
+  res.send("기본 URL에 POS  T 메소드가 정상적으로 실행되었습니다.")
 }
 
 )
